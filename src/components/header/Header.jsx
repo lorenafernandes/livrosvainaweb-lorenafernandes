@@ -31,7 +31,7 @@ export default function Header () {
                         </li>
                         <li className={s.link}>
                             <Link to='/doar'>
-                                Quero
+                                Quero Doar
                             </Link>
                         </li>
                     </ul>

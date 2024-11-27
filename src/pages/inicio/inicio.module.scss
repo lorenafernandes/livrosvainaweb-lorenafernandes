@@ -1,14 +1,49 @@
 .primeiraSessaoInicio {
-    background-image: url('../../assets/bannerInicio.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 75vh;
     display: flex;
+    padding-left: 6%;
     align-items: center;
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/bannerInicio.png');
 
     h2 {
-        color: tomato;
-        font-size: 32px;
         width: 20vw;
+        color: #fff;
+        font-size: 32px;
+    }
+}
+
+.porqueDoar {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    h2 {
+        width: 90%;
+        font-size: 40px;
+        color: #005695;
+    }
+}
+
+.containerCards {
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    section {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #0157944D;
+
+        p {
+            width: 90%;
+            font-size: 22px;
+            text-align: center;
+        }
     }
 }
