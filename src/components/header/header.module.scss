@@ -64,3 +64,21 @@
     }
 
 }
+
+@media (max-width: 768px){
+    .header {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .logoHeader {
+        width: 90%;
+    }
+
+    .navHeader{
+        width: 95%;
+    }
+    .barraDeBusca{
+        display: none;
+    }
+}
