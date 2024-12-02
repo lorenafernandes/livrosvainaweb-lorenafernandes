@@ -18,4 +18,5 @@ O principal objetivo deste projeto é demonstrar boas práticas de desenvolvimen
 ## 📌 Link para a Versão Online
 
 Acesse a aplicação hospedada no Vercel clicando no link abaixo:
-https://livrosvainaweb-m6lvvp3d9.vercel.app/ 
+
+https://livrosvainaweb-7gk3xkm4m.vercel.app
