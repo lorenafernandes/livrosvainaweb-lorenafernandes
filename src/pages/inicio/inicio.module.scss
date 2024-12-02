@@ -8,7 +8,7 @@
     background-image: url('../../assets/bannerInicio.png');
 
     h2 {
-        width: 20vw;
+        width: 20%;
         color: #fff;
         font-size: 32px;
     }
@@ -17,11 +17,12 @@
 .porqueDoar {
     height: 75vh;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
 
     h2 {
-        width: 90%;
+        width: 92%;
         font-size: 40px;
         color: #005695;
     }
@@ -35,6 +36,7 @@
     section {
         width: 20%;
         display: flex;
+        border-radius: 10px;
         align-items: center;
         flex-direction: column;
         justify-content: space-evenly;
@@ -44,6 +46,47 @@
             width: 90%;
             font-size: 22px;
             text-align: center;
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .primeiraSessaoInicio {
+        height: 50vh;
+        background-position: center;
+
+        h2 {
+            width: 90%;
+            font-size: 28px;
+            text-align: center;
+        }
+    }
+
+    .porqueDoar {
+        height: 120vh;
+
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    .containerCards {
+        height: 120vh;
+        align-items: center;
+        flex-direction: column;
+
+        section{
+            width: 70%;
+            height: 25vh;
+
+            p {
+                font-size: 18px;
+            }
+
+            img {
+                width: 15%;
+            }
         }
     }
 }

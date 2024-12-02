@@ -48,5 +48,23 @@ input {
     color: #fff;
     font-size: 18px;
     cursor: pointer;
+    font-size: 24px;
     background-color: #005695;
+}
+
+@media (max-width: 780px) {
+    .queroDoarSection {
+        height: 100vh;
+
+        p {
+            font: 18px;
+            width: 70%;
+            text-align: center;
+        }
+    }
+
+    form {
+        width: 90%;
+        font-size: 14px;
+    }
 }

@@ -6,31 +6,29 @@ import logoLivro from '../../assets/logoLivro.png'
 import lupa from '../../assets/lupa.png'
 import s from '../header/header.module.scss'
 
-export default function Header () {
+export default function Header() {
     return (
        <BrowserRouter>
             <header className={s.header}>
                 <section className={s.logoHeader}>
-                    <img 
-                    src={logoLivro} 
-                    alt="Imagem de ilustração de livro com capa azul aberto." />
-                        <h1>Livros Vai na Web</h1>
+                    <img src={logoLivro} alt="Imagem de ilustração de livro com capa azul aberto." /> 
+                    <h1>Livros Vai na Web</h1>
                 </section>
 
                 <nav className={s.navHeader}>
                     <ul>
-                        <li className={s.link}>
-                            <Link to='/'>
+                        <li>
+                            <Link className={s.link} to='/'>
                                 Início
                             </Link>
                         </li>
-                        <li className={s.link}>
-                            <Link to='/doados'>
+                        <li>
+                            <Link className={s.link} to='/doados'>
                                 Livros Doados
                             </Link>
                         </li>
-                        <li className={s.link}>
-                            <Link to='/doar'>
+                        <li>
+                            <Link className={s.link} to='/doar'>
                                 Quero Doar
                             </Link>
                         </li>
@@ -38,15 +36,9 @@ export default function Header () {
                 </nav>
 
                 <section className={s.barraDeBusca}>
-                    <input 
-                    type="search" 
-                    name="" 
-                    id="" 
-                    placeholder="O que você procura?">
-                    </input>
-
+                    <input type="search" name="" id="" placeholder='O que você procura?'/>
                     <button>
-                        <img src={lupa} alt="Imagem de luá branca" />
+                        <img src={lupa} alt="Imagem de lupa branca" />
                     </button>
                 </section>
             </header>

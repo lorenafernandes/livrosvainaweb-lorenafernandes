@@ -1,8 +1,21 @@
-# React + Vite
+# 📖 Livros Vai na Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório do projeto Livros Vai na Web! Este é um projeto desenvolvido como parte de um curso, com o objetivo de criar uma aplicação web para explorar livros e fomentar a leitura.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
+* JavaScript
+* Vite
+* React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💪 Foco no Projeto
+
+O principal objetivo deste projeto é demonstrar boas práticas de desenvolvimento web com foco em:
+
+* Responsividade: Garantir que a aplicação funcione perfeitamente em diferentes tamanhos de tela.
+* Desempenho: Utilização do Vite para construção rápida e eficiente.
+* Componentização: Criação de componentes reutilizáveis com React.
+
+## 📌 Link para a Versão Online
+
+Acesse a aplicação hospedada no Vercel clicando no link abaixo:
+https://livrosvainaweb-m6lvvp3d9.vercel.app/ 

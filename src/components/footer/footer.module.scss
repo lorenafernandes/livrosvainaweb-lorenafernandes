@@ -23,3 +23,22 @@
     justify-content: center;
     background-color: #232020;
 }
+
+@media (max-width: 780px) {
+    .contatosFooter {
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        nav {
+            width: 60%;
+        }
+    }
+
+    .copyright {
+        p {
+            width: 60%;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
