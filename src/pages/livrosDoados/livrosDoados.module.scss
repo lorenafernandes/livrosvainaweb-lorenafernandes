@@ -13,8 +13,10 @@
 .containerCards {
     width: 95%;
     height: 60vh;
+    display: flex;
     
     section {
+        margin: 0.25em;
         width: 18%;
         height: 40vh;
         display: flex;
@@ -26,6 +28,10 @@
 
         div {
             text-align: center;
+        }
+        
+        img {
+           height: 20vh;
         }
     }
 }
